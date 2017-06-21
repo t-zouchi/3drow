@@ -15,19 +15,25 @@ public class CubeGen : MonoBehaviour {
     RaycastHit hit;
     Vector3 hitPoint;
 
-    if(Input.GetMouseButtonDown(0))
+    if(Input.GetMouseButton(0))
     {
       ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
       if(Physics.Raycast(ray, out hit, 100))
       {
-        hitPoint = hit.point;
-        if(hitPoint.y < 0.05f)
+        Debug.Log(hit.collider.tag.ToString());
+        if (hit.collider.tag == "Plane")
         {
-          hitPoint.y = 0.05f;
+          hitPoint = hit.point;
+          if (hitPoint.y < 0.05f)
+          {
+            hitPoint.y = 0.05f;
+          }
+          Instantiate(cube, hitPoint, transform.rotation);
         }
-        Instantiate(cube, hitPoint, transform.rotation);
-
+        else if (hit.collider.tag == "cube")
+        {
+        }
       }
     }
 	}
