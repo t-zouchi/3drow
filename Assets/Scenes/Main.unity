@@ -364,4 +364,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 102f8cf86eb664c49b6d9662cb75cb74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 1269510214995190, guid: 5c632076b6e256f4fbcb98396f05ce22, type: 2}
+  cube: {fileID: 1556802070868698, guid: 5c632076b6e256f4fbcb98396f05ce22, type: 2}

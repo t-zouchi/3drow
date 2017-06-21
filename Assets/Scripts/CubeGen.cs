@@ -13,6 +13,7 @@ public class CubeGen : MonoBehaviour {
 	void Update () {
     Ray ray;
     RaycastHit hit;
+    Vector3 hitPoint;
 
     if(Input.GetMouseButtonDown(0))
     {
@@ -20,8 +21,12 @@ public class CubeGen : MonoBehaviour {
 
       if(Physics.Raycast(ray, out hit, 100))
       {
-        Debug.Log("x: " + Input.mousePosition.x + " y: " + Input.mousePosition.y + " z: "  + Input.mousePosition.z);
-        Instantiate(cube, transform.position, transform.rotation);
+        hitPoint = hit.point;
+        if(hitPoint.y < 0.05f)
+        {
+          hitPoint.y = 0.05f;
+        }
+        Instantiate(cube, hitPoint, transform.rotation);
 
       }
     }
