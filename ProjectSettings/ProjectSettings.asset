@@ -453,11 +453,11 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Build: 1
-    Collab: 1
+    Build: 0
+    Collab: 0
     ErrorHub: 0
     Hub: 0
-    UNet: 1
+    UNet: 0
   cloudProjectId: fc1d8c2d-9282-4eaa-bbfb-cf069a6435c6
   projectName: 3draw
   organizationId: t_zouchi
