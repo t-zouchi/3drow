@@ -2507,6 +2507,7 @@ GameObject:
   - component: {fileID: 1719328701}
   - component: {fileID: 1719328702}
   - component: {fileID: 1719328703}
+  - component: {fileID: 1719328704}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -2550,6 +2551,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4336b802f6ff3e341aa7f50af35c9b80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1719328704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1719328700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcba3fb311074cc46949081c6cce430e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _000000: {fileID: 1556802070868698, guid: 5c632076b6e256f4fbcb98396f05ce22, type: 2}
+  _0000FF: {fileID: 1259304314781856, guid: 9097928767435654db4ad833fed2aadf, type: 2}
+  _00FF00: {fileID: 1832407822506202, guid: fc97f9ec36643494ab838e32578a39be, type: 2}
+  _00FFFF: {fileID: 1443726790272002, guid: 930aaa9e1fbb1d54f8750dd17f07495a, type: 2}
+  _80FF80: {fileID: 1142440262983224, guid: 3ec223147b47ec247ab354aa038c54a8, type: 2}
+  _80FFFF: {fileID: 1156576595851036, guid: d1367b6dc9d71dd4caf070f6a759df1e, type: 2}
+  _8080FF: {fileID: 1635972728103608, guid: 16702e3ba3ace184483950d762ab1260, type: 2}
+  _555555: {fileID: 1789717393546468, guid: 78c2ac9323ae8f14aa7908bac0aca596, type: 2}
+  _CCCCCC: {fileID: 1638845752984528, guid: 1892e74584fbb4f45a4a9eb05c4ec5a9, type: 2}
+  _FF0000: {fileID: 1005327898873212, guid: 940bcf85c535fe140bf97b7dcdc134d4, type: 2}
+  _FF00FF: {fileID: 1928204226673046, guid: 656ab5ed60ea3634ba7efbf3898ca238, type: 2}
+  _FF80FF: {fileID: 1568557890534242, guid: f83fde3bae5e43e47a1b5bf7799b4bc4, type: 2}
+  _FF8080: {fileID: 1572444611623772, guid: 0c3df1cf117341848afb15230ff02a5f, type: 2}
+  _FFFF00: {fileID: 1909732127097500, guid: 8ff9a3b84cd8bdd4f8b0c6a1df88c2a2, type: 2}
+  _FFFF80: {fileID: 1695287910038794, guid: 8aaf8483d4885e744ad33efbbe964750, type: 2}
+  _FFFFFF: {fileID: 1896447895243432, guid: bdca25306821b704fa65d709f135237c, type: 2}
 --- !u!1 &1782907167
 GameObject:
   m_ObjectHideFlags: 0

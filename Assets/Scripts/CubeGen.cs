@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class CubeGen : MonoBehaviour {
   public GameObject cube;
+  colorManager color;
   float drewTime;
   //Mode 0 = drow, 1 = erease
   int mode = 0;
   // Use this for initialization
   void Start () {
     drewTime = Time.deltaTime;
+    color = GetComponent<colorManager>();
+    cube = color.set_000000();
 	}
 	
 	// Update is called once per frame
