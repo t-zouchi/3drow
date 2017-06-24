@@ -71,6 +71,7 @@ public class CubeGen : MonoBehaviour {
 
   public void set_000000()
   {
+    setDrowMode();
     cube = color.get_000000();
   }
 
