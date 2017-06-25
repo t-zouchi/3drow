@@ -19,4 +19,14 @@ public class SceneController : MonoBehaviour {
   {
     SceneManager.LoadScene("Main");
   }
+
+  public void LoadTitle()
+  {
+    SceneManager.LoadScene("Title");
+  }
+
+  public void LoadHowTo()
+  {
+    SceneManager.LoadScene("HowTo");
+  }
 }
