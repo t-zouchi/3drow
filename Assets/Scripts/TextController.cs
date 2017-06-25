@@ -1,14 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class TextController : MonoBehaviour {
   string str;
   Text text;
   int counter = 0;
-	// Use this for initialization
-	void Start () {
+
+  void Start () {
     str = getText1();
     text = GetComponent<Text>();
     text.text = str;
@@ -16,7 +14,6 @@ public class TextController : MonoBehaviour {
 	 
   void changeStr()
   {
-    Debug.Log(counter);
     switch (counter)
     {
       case 0:
