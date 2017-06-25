@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CubeGen : MonoBehaviour {
   public GameObject cube;
@@ -8,15 +6,14 @@ public class CubeGen : MonoBehaviour {
   float drewTime;
   //Mode 0 = drow, 1 = erease
   int mode = 0;
-  // Use this for initialization
+
   void Start () {
     drewTime = Time.deltaTime;
     color = GetComponent<colorManager>();
     set_000000();
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+  void Update () {
     Ray ray;
     RaycastHit hit;
     Vector3 hitPoint;
